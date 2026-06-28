@@ -1,0 +1,9 @@
+{
+  "name": "Al tuo fianco",
+  "short_name": "Al tuo fianco",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7f4ef",
+  "theme_color": "#0f766e",
+  "icons": []
+}

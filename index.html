@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Al tuo fianco</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">Servizi di supporto nel Sulcis</p>
+      <h1>Al tuo fianco</h1>
+      <p>Accompagnamenti, pratiche online, commissioni e assistenza quotidiana per anziani e famiglie.</p>
+      <a class="btn primary" href="#prenota">Prenota un servizio</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="card-grid" id="servizi">
+      <article class="card"><span>🚗</span><h3>Accompagnamento visite</h3><p>Trasporto e supporto per visite mediche, esami, ospedale o ambulatori.</p></article>
+      <article class="card"><span>📄</span><h3>Pratiche online</h3><p>INPS, SPID, PagoPA, bonus, prenotazioni CUP e documentazione.</p></article>
+      <article class="card"><span>🛒</span><h3>Commissioni</h3><p>Spesa, farmacia, posta, ritiro referti e piccole necessità quotidiane.</p></article>
+      <article class="card"><span>👨‍👩‍👧</span><h3>Area familiari</h3><p>Un familiare può richiedere servizi per un genitore o parente fragile.</p></article>
+    </section>
+
+    <section class="panel" id="prenota">
+      <div class="section-title">
+        <p class="eyebrow">Richiesta servizio</p>
+        <h2>Prenota o invia una pratica</h2>
+      </div>
+      <form id="bookingForm">
+        <label>Nome e cognome
+          <input required name="nome" placeholder="Es. Maria Rossi" />
+        </label>
+        <label>Telefono
+          <input required name="telefono" placeholder="Es. 333 1234567" />
+        </label>
+        <label>Comune
+          <input required name="comune" placeholder="Es. Carbonia" />
+        </label>
+        <label>Servizio richiesto
+          <select name="servizio" required>
+            <option value="">Seleziona</option>
+            <option>Accompagnamento visita medica</option>
+            <option>Pratica online / documenti</option>
+            <option>Spesa o commissione</option>
+            <option>Aiuto smartphone / computer</option>
+            <option>Altro supporto</option>
+          </select>
+        </label>
+        <label>Data preferita
+          <input name="data" type="date" />
+        </label>
+        <label>Ora preferita
+          <input name="ora" type="time" />
+        </label>
+        <label>Descrivi la richiesta
+          <textarea name="note" rows="4" placeholder="Es. accompagnamento al CTO alle 10:30, serve attendere e riportare a casa"></textarea>
+        </label>
+        <label>Carica documento o ricetta <small>(prototipo: resta salvato solo sul dispositivo)</small>
+          <input name="file" type="file" />
+        </label>
+        <button class="btn primary" type="submit">Invia richiesta</button>
+        <p id="formMessage" class="success" hidden>Richiesta salvata. Nel prototipo puoi vederla nel pannello gestione.</p>
+      </form>
+    </section>
+
+    <section class="panel muted">
+      <div class="section-title">
+        <p class="eyebrow">Gestione</p>
+        <h2>Richieste ricevute</h2>
+        <p>Questo pannello simula l'area operatore. In una versione online reale le richieste arriverebbero su database, email o WhatsApp.</p>
+      </div>
+      <div id="requests" class="requests"></div>
+      <button id="clearBtn" class="btn ghost">Svuota richieste demo</button>
+    </section>
+
+    <section class="cta">
+      <h2>Hai bisogno subito?</h2>
+      <p>Chiama o scrivi su WhatsApp per accompagnamenti urgenti o pratiche da avviare.</p>
+      <a class="btn whatsapp" href="https://wa.me/393000000000?text=Ciao%2C%20vorrei%20informazioni%20su%20Al%20tuo%20fianco">Scrivi su WhatsApp</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Al tuo fianco · Prototipo</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
