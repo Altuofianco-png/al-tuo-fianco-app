@@ -3,56 +3,147 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Al tuo fianco</title>
-  <meta name="theme-color" content="#1f3f70" />
+  <meta name="theme-color" content="#12345f" />
+  <title>Al tuo fianco - Servizi e supporto quotidiano</title>
+  <meta name="description" content="Accompagnamenti, pratiche online, commissioni e supporto quotidiano a Carbonia e nel Sulcis." />
   <link rel="manifest" href="manifest.json" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header class="topbar">
-  <div class="brand"><img src="logo.jpeg" alt="Al tuo fianco"><div><b>Al tuo fianco</b><span>Servizi e supporto quotidiano</span></div></div>
-  <nav><a href="#servizi">Servizi</a><a href="#prenota">Prenota</a><a href="#contatti">Contatti</a></nav>
-</header>
-<section class="hero">
-  <div class="hero-image">
-    <img src="hero.jpg" alt="Al tuo fianco">
-  </div>
-    <p class="eyebrow">Servizi di supporto nel Sulcis</p>
-    <h1>Al tuo fianco, ogni giorno.</h1>
-    <p>Accompagnamenti, pratiche online, commissioni e supporto quotidiano per semplificare la vita tua e delle persone che ami.</p>
-    <div class="actions"><a class="btn" href="#prenota">Prenota un servizio</a><a class="btn light" target="_blank" href="https://wa.me/393780044049?text=Ciao%2C%20vorrei%20informazioni%20su%20un%20servizio%20di%20Al%20tuo%20fianco.">WhatsApp</a></div>
-  </div>
-</section>
-<section id="servizi" class="section">
-  <h2>I nostri servizi</h2>
-  <div class="cards">
-    <article><span>🚗</span><h3>Accompagnamento visite</h3><p>Trasporto e supporto per visite mediche, esami, terapie e appuntamenti.</p></article>
-    <article><span>📄</span><h3>Pratiche online</h3><p>Supporto per SPID, PagoPA, CUP, bonus, prenotazioni e documentazione.</p></article>
-    <article><span>🛒</span><h3>Commissioni</h3><p>Spesa, farmacia, posta, ritiro referti e piccole necessità quotidiane.</p></article>
-    <article><span>👨‍👩‍👧</span><h3>Area familiari</h3><p>Un aiuto per chi desidera supportare un familiare anche a distanza.</p></article>
-  </div>
-</section>
-<section id="prenota" class="section form-section">
-  <h2>Prenota o invia una richiesta</h2>
-  <form id="requestForm">
-    <input name="nome" placeholder="Nome e cognome" required>
-    <input name="telefono" placeholder="Telefono" required>
-    <input name="comune" placeholder="Comune" required>
-    <select name="servizio" required>
-      <option value="">Scegli il servizio</option><option>Accompagnamento visite</option><option>Pratiche online</option><option>Commissioni</option><option>Area familiari</option><option>Altro</option>
-    </select>
-    <input name="data" type="date">
-    <textarea name="note" placeholder="Descrivi brevemente di cosa hai bisogno"></textarea>
-    <button type="submit">Invia richiesta su WhatsApp</button>
-  </form>
-</section>
-<section id="contatti" class="contacts">
-  <div><b>📞 Telefono</b><p><a href="tel:+393780044049">378 004 4049</a></p></div>
-  <div><b>💬 WhatsApp</b><p><a target="_blank" href="https://wa.me/393780044049">Scrivici subito</a></p></div>
-  <div><b>📧 Email</b><p><a href="mailto:altuofianco@outlook.com">altuofianco@outlook.com</a></p></div>
-  <div><b>📍 Zona</b><p>Carbonia e Sulcis</p></div>
-</section>
-<footer>© 2026 Al tuo fianco – Servizi e supporto quotidiano.</footer>
-<script src="app.js"></script>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Al tuo fianco home">
+      <img src="logo.jpeg" alt="Logo Al tuo fianco" />
+      <div>
+        <strong>Al tuo fianco</strong>
+        <span>Servizi e supporto quotidiano</span>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="#servizi">Servizi</a>
+      <a href="#prenota">Prenota</a>
+      <a href="#contatti">Contatti</a>
+      <a class="nav-whatsapp" href="https://wa.me/393780044049" target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Servizi di supporto nel Sulcis</p>
+        <h1>Al tuo fianco,<br>ogni giorno.</h1>
+        <p class="hero-text">Accompagnamenti, pratiche online, commissioni e supporto quotidiano per semplificare la vita tua e delle persone che ami.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#prenota">Prenota un servizio</a>
+          <a class="btn secondary" href="https://wa.me/393780044049?text=Ciao%2C%20vorrei%20richiedere%20informazioni%20sui%20servizi%20di%20Al%20tuo%20fianco." target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+        <div class="quick-services" aria-label="Servizi principali">
+          <div><span>🚗</span><p>Accompagnamento<br>visite</p></div>
+          <div><span>📄</span><p>Pratiche<br>online</p></div>
+          <div><span>🛒</span><p>Commissioni</p></div>
+          <div><span>👨‍👩‍👧</span><p>Area<br>familiari</p></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="hero.png" alt="Esempi di servizi: accompagnamenti, commissioni, pratiche online e supporto familiari" />
+      </div>
+    </section>
+
+    <section id="servizi" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">I nostri servizi</p>
+        <h2>Una mano concreta quando serve</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="icon blue">🚗</div>
+          <h3>Accompagnamento visite</h3>
+          <p>Trasporto e supporto per visite mediche, esami, terapie e appuntamenti.</p>
+        </article>
+        <article class="card">
+          <div class="icon green">📄</div>
+          <h3>Pratiche online</h3>
+          <p>Supporto per SPID, PagoPA, prenotazioni, invio documenti e servizi online.</p>
+        </article>
+        <article class="card">
+          <div class="icon amber">🛒</div>
+          <h3>Commissioni</h3>
+          <p>Spesa, farmacia, posta, ritiro referti e piccole necessità quotidiane.</p>
+        </article>
+        <article class="card">
+          <div class="icon violet">👨‍👩‍👧</div>
+          <h3>Area familiari</h3>
+          <p>Un aiuto per chi desidera supportare un familiare anche a distanza.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="prenota" class="section form-section">
+      <div class="form-card">
+        <div>
+          <p class="eyebrow">Richiesta servizio</p>
+          <h2>Prenota o invia una richiesta</h2>
+          <p class="muted">Compila i campi: si aprirà WhatsApp con il messaggio già pronto da inviare.</p>
+        </div>
+        <form id="requestForm">
+          <label>Nome e cognome
+            <input type="text" id="nome" placeholder="Nome e cognome" required />
+          </label>
+          <label>Telefono
+            <input type="tel" id="telefono" placeholder="Telefono" required />
+          </label>
+          <label>Comune
+            <input type="text" id="comune" placeholder="Carbonia, Iglesias, Sant'Antioco..." required />
+          </label>
+          <label>Servizio richiesto
+            <select id="servizio" required>
+              <option value="">Seleziona un servizio</option>
+              <option>Accompagnamento visite</option>
+              <option>Pratiche online</option>
+              <option>Commissioni</option>
+              <option>Area familiari</option>
+              <option>Altro</option>
+            </select>
+          </label>
+          <label>Data preferita
+            <input type="date" id="data" />
+          </label>
+          <label>Orario preferito
+            <select id="orario">
+              <option value="">Scegli, se vuoi</option>
+              <option>Mattina</option>
+              <option>Pomeriggio</option>
+              <option>Sera</option>
+            </select>
+          </label>
+          <label class="full">Descrivi brevemente di cosa hai bisogno
+            <textarea id="messaggio" rows="5" placeholder="Scrivi qui la tua richiesta..." required></textarea>
+          </label>
+          <label class="privacy full">
+            <input type="checkbox" id="privacy" required />
+            <span>Acconsento al trattamento dei dati personali per essere ricontattato in merito alla richiesta.</span>
+          </label>
+          <button class="btn primary full" type="submit">Invia richiesta su WhatsApp</button>
+          <p class="note full">Ti ricontatteremo il prima possibile per confermare la richiesta.</p>
+        </form>
+      </div>
+    </section>
+
+    <section id="contatti" class="contacts">
+      <a href="tel:+393780044049">📞 3780044049</a>
+      <a href="mailto:altuofianco@outlook.com">✉️ altuofianco@outlook.com</a>
+      <span>📍 Carbonia e Sulcis</span>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Al tuo fianco - Servizi e supporto quotidiano</p>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js'));
+    }
+  </script>
 </body>
 </html>
