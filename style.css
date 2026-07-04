@@ -220,3 +220,25 @@ footer{
   .hero p{font-size:18px}
   .cards,.contacts{grid-template-columns:1fr}
 }
+.privacy-check {
+  display: block;
+  margin: 15px 0 8px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.privacy-check input {
+  margin-right: 8px;
+}
+
+.privacy-check a {
+  color: #123b6d;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.privacy-note {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 15px;
+}
