@@ -67,36 +67,26 @@
       <option>Altro</option>
     </select>
     <input name="data" type="date">
-    <textarea
-  name="messaggio"
-  maxlength="500"
-  placeholder="Descrivi brevemente il servizio richiesto, senza indicare diagnosi, patologie o dati sanitari."
-></textarea>
-    <label class="privacy-check">
-  <input type="checkbox" name="privacy" required>
- <label class="privacy-check">
+<div class="privacy-consent">
   <input
     type="checkbox"
+    id="privacy-ack"
     name="presa_visione_privacy"
     value="confermata"
     required
   >
-  Dichiaro di aver letto l'
-  <a href="/privacy.html" target="_blank" rel="noopener">
-    Informativa Privacy
-  </a>
-  relativa al trattamento dei dati necessari alla gestione della mia richiesta.
-</label>
+
+  <label for="privacy-ack">
+    Dichiaro di aver letto l'
+    <a href="/privacy.html" target="_blank" rel="noopener">
+      Informativa Privacy
+    </a>
+    relativa al trattamento dei dati necessari alla gestione della mia richiesta.
+  </label>
+</div>
 
 <p class="privacy-note">
   Non inserire diagnosi, patologie, referti, prescrizioni, fotografie o documenti sensibili.
-</p>
-  <a href="privacy.html" target="_blank">Informativa Privacy</a>
-  e acconsento al trattamento dei miei dati personali.
-</label>
-
-<p class="privacy-note">
-  Non inviare dati sanitari, referti, foto o documenti sensibili tramite questo modulo.
 </p>
     <button type="submit">Invia richiesta </button>
     <p class="privacy-note">Inviando la richiesta accetti di essere ricontattato per ricevere informazioni sul servizio richiesto.</p>
