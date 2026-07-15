@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informativa Privacy | Al tuo fianco</title>
+  <meta name="robots" content="index,follow">
+  <style>
+    :root{
+      --blu:#163a67;
+      --testo:#243247;
+      --sfondo:#f6f8fb;
+      --bianco:#ffffff;
+      --bordo:#dfe6ee;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:var(--sfondo);
+      color:var(--testo);
+      line-height:1.65;
+    }
+    main{
+      width:min(900px,92%);
+      margin:40px auto;
+      background:var(--bianco);
+      padding:40px;
+      border:1px solid var(--bordo);
+      border-radius:20px;
+      box-shadow:0 10px 35px rgba(20,45,75,.08);
+    }
+    h1,h2{color:var(--blu)}
+    h1{margin-top:0}
+    h2{margin-top:30px;font-size:1.25rem}
+    a{color:var(--blu);font-weight:700}
+    .notice{
+      padding:16px 18px;
+      background:#eef5fb;
+      border-left:4px solid var(--blu);
+      border-radius:8px;
+    }
+    .back{
+      display:inline-block;
+      margin-top:25px;
+      padding:12px 18px;
+      text-decoration:none;
+      border:1px solid var(--blu);
+      border-radius:10px;
+    }
+    @media(max-width:600px){
+      main{padding:24px;margin:20px auto}
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Informativa sul trattamento dei dati personali</h1>
+  <p><strong>Ai sensi dell'art. 13 del Regolamento (UE) 2016/679 (“GDPR”)</strong></p>
+  <p><strong>Ultimo aggiornamento:</strong> 15 luglio 2026 </p>
+
+  <div class="notice">
+    <strong>Importante:</strong> il modulo del sito non deve essere utilizzato per inviare diagnosi,
+    referti, prescrizioni, fotografie di documenti sanitari o altre informazioni particolarmente delicate.
+  </div>
+
+  <h2>1. Titolare del trattamento</h2>
+  <p>
+    Il Titolare del trattamento è <strong> Elisa Esu </strong>,
+    responsabile del progetto “Al tuo fianco – Servizi e supporto quotidiano”.
+  </p>
+  <p>
+    Email: <a href="mailto:altuofianco@outlook.com">altuofianco@outlook.com</a><br>
+    Telefono: <a href="tel:+393780044049">378 004 4049</a><br>
+    Zona di attività: Carbonia e comuni limitrofi del Sulcis.
+  </p>
+
+  <h2>2. Dati trattati</h2>
+  <p>
+    Attraverso il modulo possono essere raccolti: nome e cognome, numero di telefono,
+    comune, servizio richiesto, data preferita e contenuto del messaggio.
+    Possono inoltre essere trattati i dati tecnici di navigazione strettamente necessari
+    al funzionamento e alla sicurezza del sito.
+  </p>
+
+  <h2>3. Finalità del trattamento</h2>
+  <p>I dati sono trattati esclusivamente per:</p>
+  <ul>
+    <li>ricevere e gestire la richiesta inviata dall'utente;</li>
+    <li>ricontattare l'utente e fornire informazioni o un preventivo;</li>
+    <li>organizzare l'eventuale servizio richiesto;</li>
+    <li>adempiere a eventuali obblighi di legge e tutelare i diritti del Titolare.</li>
+  </ul>
+
+  <h2>4. Base giuridica</h2>
+  <p>
+    Il trattamento necessario per rispondere alla richiesta e organizzare l'eventuale servizio
+    si basa sull'esecuzione di misure precontrattuali adottate su richiesta dell'interessato
+    e, se il servizio viene confermato, sull'esecuzione del rapporto contrattuale
+    (art. 6, par. 1, lett. b, GDPR). Gli eventuali trattamenti richiesti dalla legge
+    si basano sull'adempimento di obblighi legali (art. 6, par. 1, lett. c, GDPR).
+  </p>
+  <p>
+    Non vengono utilizzati i dati del modulo per marketing o comunicazioni promozionali.
+    Qualora in futuro venissero introdotte tali attività, sarà richiesto un consenso separato,
+    facoltativo e revocabile.
+  </p>
+
+  <h2>5. Conferimento dei dati</h2>
+  <p>
+    Il conferimento dei dati è facoltativo, ma i campi indicati come obbligatori sono necessari
+    per poter gestire la richiesta. In mancanza, non sarà possibile ricontattare l'utente.
+  </p>
+
+  <h2>6. Modalità del trattamento e sicurezza</h2>
+  <p>
+    I dati sono trattati con strumenti elettronici e con misure ragionevoli di sicurezza,
+    limitando l'accesso alle sole persone autorizzate. Il Titolare applica i principi di
+    liceità, correttezza, trasparenza, minimizzazione e limitazione della conservazione.
+  </p>
+
+  <h2>7. Destinatari e fornitori tecnici</h2>
+  <p>
+    I dati possono essere trattati da fornitori tecnici necessari al funzionamento del servizio,
+    tra cui il servizio di hosting del sito, il servizio utilizzato per inoltrare il modulo
+    e il fornitore di posta elettronica. Attualmente il modulo utilizza FormSubmit per inoltrare
+    la richiesta all'indirizzo Outlook del Titolare, mentre il sito è ospitato su Vercel.
+  </p>
+  <p>
+    I dati non sono venduti né comunicati a terzi per finalità commerciali.
+    Potranno essere comunicati a soggetti pubblici o professionisti solo quando necessario
+    per obblighi di legge, tutela dei diritti o su richiesta dell'interessato.
+  </p>
+
+  <h2>8. Trasferimenti fuori dallo Spazio Economico Europeo</h2>
+  <p>
+    L'utilizzo di alcuni fornitori tecnici può comportare trattamenti o trasferimenti di dati
+    verso Paesi esterni allo Spazio Economico Europeo. In tali casi il trattamento dovrà avvenire
+    nel rispetto degli artt. 44 e seguenti del GDPR, sulla base di una decisione di adeguatezza
+    o di garanzie adeguate previste dalla normativa applicabile.
+  </p>
+
+  <h2>9. Periodo di conservazione</h2>
+  <p>
+    Le richieste che non portano all'esecuzione di un servizio saranno cancellate entro
+    <strong>6 mesi</strong> dalla conclusione del contatto, salvo necessità di difesa da contestazioni.
+    Se viene svolto un servizio, i dati necessari alla gestione del rapporto saranno conservati
+    per la durata del rapporto e successivamente per i termini previsti dalla legge.
+  </p>
+
+  <h2>10. Dati relativi alla salute e altri dati particolari</h2>
+  <p>
+    Il modulo non è destinato alla raccolta di dati relativi alla salute o di altre categorie
+    particolari di dati personali. L'utente è invitato a non inserire diagnosi, patologie,
+    referti, prescrizioni o dettagli medici nel campo messaggio e a non inviare fotografie
+    o documenti sensibili tramite il modulo o WhatsApp.
+  </p>
+  <p>
+    Qualora, per uno specifico servizio, fosse realmente necessario trattare documentazione
+    particolare, saranno fornite istruzioni e un'informativa dedicata prima della raccolta.
+  </p>
+
+  <h2>11. Diritti dell'interessato</h2>
+  <p>
+    L'interessato può chiedere, nei casi previsti dal GDPR, l'accesso ai propri dati,
+    la rettifica, la cancellazione, la limitazione del trattamento, la portabilità e
+    l'opposizione, nonché ricevere informazioni sul trattamento.
+  </p>
+  <p>
+    Le richieste possono essere inviate a
+    <a href="mailto:altuofianco@outlook.com">altuofianco@outlook.com</a>.
+  </p>
+
+  <h2>12. Reclamo</h2>
+  <p>
+    L'interessato ha il diritto di proporre reclamo al Garante per la protezione dei dati personali
+    qualora ritenga che il trattamento violi la normativa applicabile.
+  </p>
+
+  <h2>13. Processi decisionali automatizzati</h2>
+  <p>
+    I dati non sono utilizzati per processi decisionali automatizzati o profilazione.
+  </p>
+
+  <h2>14. Aggiornamenti</h2>
+  <p>
+    La presente informativa potrà essere aggiornata in caso di modifica dei servizi,
+    dei fornitori tecnici o delle modalità di trattamento. La versione aggiornata sarà
+    pubblicata su questa pagina.
+  </p>
+
+  <a class="back" href="/">← Torna al sito</a>
+</main>
+</body>
+</html>

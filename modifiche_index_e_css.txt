@@ -1,0 +1,69 @@
+MODIFICHE DA FARE IN index.html
+
+1) Sostituisci l'attuale testo della spunta con questo blocco:
+
+<label class="privacy-check">
+  <input
+    type="checkbox"
+    name="presa_visione_privacy"
+    value="confermata"
+    required
+  >
+  Dichiaro di aver letto l'
+  <a href="/privacy.html" target="_blank" rel="noopener">
+    Informativa Privacy
+  </a>
+  relativa al trattamento dei dati necessari alla gestione della mia richiesta.
+</label>
+
+<p class="privacy-note">
+  Non inserire diagnosi, patologie, referti, prescrizioni, fotografie o documenti sensibili.
+</p>
+
+2) Nel footer aggiungi:
+
+<p>
+  <a href="/privacy.html">Informativa Privacy</a>
+</p>
+
+3) Nel campo messaggio usa un testo prudente e limita la lunghezza:
+
+<textarea
+  name="messaggio"
+  maxlength="1000"
+  placeholder="Descrivi brevemente il servizio richiesto, senza indicare diagnosi, patologie o dati sanitari."
+></textarea>
+
+4) Non aggiungere una seconda spunta marketing finché non invii newsletter o promozioni.
+Se in futuro vorrai farlo, dovrà essere separata, facoltativa e non preselezionata.
+
+CSS FACOLTATIVO DA AGGIUNGERE IN FONDO A style.css
+
+.privacy-check{
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+  margin:10px 0 4px;
+  font-size:14px;
+  line-height:1.45;
+}
+
+.privacy-check input{
+  width:18px;
+  height:18px;
+  margin-top:2px;
+  flex:0 0 auto;
+}
+
+.privacy-check a{
+  color:#163a67;
+  font-weight:700;
+  text-decoration:underline;
+}
+
+.privacy-note{
+  margin:0 0 16px;
+  font-size:13px;
+  line-height:1.45;
+  color:#667085;
+}
