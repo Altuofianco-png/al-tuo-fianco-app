@@ -67,10 +67,30 @@
       <option>Altro</option>
     </select>
     <input name="data" type="date">
-    <textarea name="note" placeholder="Descrivi brevemente di cosa hai bisogno"></textarea>
+    <textarea name="note" placeholder="Descrivi brevemente di cosa hai bisogno"><textarea
+  name="messaggio"
+  maxlength="1000"
+  placeholder="Descrivi brevemente il servizio richiesto, senza indicare diagnosi, patologie o dati sanitari."
+></textarea>
     <label class="privacy-check">
   <input type="checkbox" name="privacy" required>
-  Ho letto e accetto l'
+ <label class="privacy-check">
+  <input
+    type="checkbox"
+    name="presa_visione_privacy"
+    value="confermata"
+    required
+  >
+  Dichiaro di aver letto l'
+  <a href="/privacy.html" target="_blank" rel="noopener">
+    Informativa Privacy
+  </a>
+  relativa al trattamento dei dati necessari alla gestione della mia richiesta.
+</label>
+
+<p class="privacy-note">
+  Non inserire diagnosi, patologie, referti, prescrizioni, fotografie o documenti sensibili.
+</p>
   <a href="privacy.html" target="_blank">Informativa Privacy</a>
   e acconsento al trattamento dei miei dati personali.
 </label>
@@ -90,7 +110,9 @@
   <div><b>📍 Zona</b><p>Carbonia e Sulcis</p></div>
 </section>
 
-<footer>© 2026 Al tuo fianco – Servizi e supporto quotidiano.</footer>
+<footer>© 2026 Al tuo fianco – Servizi e supporto quotidiano.<p>
+  <a href="/privacy.html">Informativa Privacy</a>
+</p></footer>
 <script src="app.js"></script>
 </body>
 </html>
