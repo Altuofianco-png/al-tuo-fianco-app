@@ -242,3 +242,31 @@ footer{
   color: #666;
   margin-bottom: 15px;
 }
+.privacy-check{
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+  margin:10px 0 4px;
+  font-size:14px;
+  line-height:1.45;
+}
+
+.privacy-check input{
+  width:18px;
+  height:18px;
+  margin-top:2px;
+  flex:0 0 auto;
+}
+
+.privacy-check a{
+  color:#163a67;
+  font-weight:700;
+  text-decoration:underline;
+}
+
+.privacy-note{
+  margin:0 0 16px;
+  font-size:13px;
+  line-height:1.45;
+  color:#667085;
+}
