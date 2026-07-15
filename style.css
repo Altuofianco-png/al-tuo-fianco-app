@@ -220,53 +220,40 @@ footer{
   .hero p{font-size:18px}
   .cards,.contacts{grid-template-columns:1fr}
 }
-.privacy-check {
+
+.privacy-consent {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 10px;
+  align-items: start;
+  margin: 18px 0 6px;
+}
+
+.privacy-consent input {
+  width: 18px;
+  height: 18px;
+  margin: 2px 0 0;
+  cursor: pointer;
+}
+
+.privacy-consent label {
   display: block;
-  margin: 15px 0 8px;
+  margin: 0;
   font-size: 14px;
-  line-height: 1.4;
+  line-height: 1.5;
+  color: #334155;
+  cursor: pointer;
 }
 
-.privacy-check input {
-  margin-right: 8px;
-}
-
-.privacy-check a {
-  color: #123b6d;
-  font-weight: bold;
+.privacy-consent a {
+  color: #163a67;
+  font-weight: 700;
   text-decoration: underline;
 }
 
 .privacy-note {
+  margin: 0 0 18px 30px;
   font-size: 13px;
-  color: #666;
-  margin-bottom: 15px;
-}
-.privacy-check{
-  display:flex;
-  align-items:flex-start;
-  gap:10px;
-  margin:10px 0 4px;
-  font-size:14px;
-  line-height:1.45;
-}
-
-.privacy-check input{
-  width:18px;
-  height:18px;
-  margin-top:2px;
-  flex:0 0 auto;
-}
-
-.privacy-check a{
-  color:#163a67;
-  font-weight:700;
-  text-decoration:underline;
-}
-
-.privacy-note{
-  margin:0 0 16px;
-  font-size:13px;
-  line-height:1.45;
-  color:#667085;
+  line-height: 1.45;
+  color: #667085;
 }
